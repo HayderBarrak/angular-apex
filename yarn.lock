@@ -158,6 +158,13 @@
     universal-analytics "^0.4.20"
     uuid "^3.3.2"
 
+"@angular/common@*":
+  version "10.0.8"
+  resolved "https://registry.yarnpkg.com/@angular/common/-/common-10.0.8.tgz#591263b42f8d03f3730e927251dae175e0d60669"
+  integrity sha512-Nzk5ckQ8y/qvTmqRdzpwUQELYD9N6DJC5yPWQw+remlkUTw24KX4KMUnt9Iy/2eFQC65MhZoTwostuKpjffrlQ==
+  dependencies:
+    tslib "^2.0.0"
+
 "@angular/common@8.0.0":
   version "8.0.0"
   resolved "https://registry.yarnpkg.com/@angular/common/-/common-8.0.0.tgz#700aeda9be8af96692fce0ea6bf6157f7c874c0e"
@@ -189,12 +196,26 @@
   dependencies:
     tslib "^1.9.0"
 
+"@angular/core@*":
+  version "10.0.8"
+  resolved "https://registry.yarnpkg.com/@angular/core/-/core-10.0.8.tgz#dd8855e9faa3f2ba37268144d15402d346b1be57"
+  integrity sha512-52M1krR/TRZsV9WKPd+r7IPVT8c5Nh+Im1z3/ZY7rG0HmxXsV7YzuTuKV7oyHbWPg0WPJAwyH0+qxBK3kpvc8w==
+  dependencies:
+    tslib "^2.0.0"
+
 "@angular/core@8.0.0":
   version "8.0.0"
   resolved "https://registry.yarnpkg.com/@angular/core/-/core-8.0.0.tgz#bf7a582b818e9181d830219907470e2b865ba32f"
   integrity sha512-mrkP1PTzqCmZGLYll+TDyawLXHzi+FcRPqSuRxCmDMthUUE93SLXT2yISDkx9aMPtFKgFr6KfrIkKuCz16BP/g==
   dependencies:
     tslib "^1.9.0"
+
+"@angular/forms@*":
+  version "10.0.8"
+  resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-10.0.8.tgz#e491010a78be6997d4ac228565de661f5505dc2f"
+  integrity sha512-7aEF0iO8pwcCtVgY0uNN7njVvdXWzXCTygd0SfqOTJRpCQwZ5IgICmUkpjlo8soTrOUC/8VRUstEKVltNzj9gA==
+  dependencies:
+    tslib "^2.0.0"
 
 "@angular/forms@8.0.0":
   version "8.0.0"
@@ -237,6 +258,13 @@
   integrity sha512-DGUTb8qpndE5m716xh00GxuC8o7qamlqbUruGB+SQD6ynU7s5yLGxtKffxqb1BT63+YewpsVxc2Koruvb1qjDw==
   dependencies:
     tslib "^1.9.0"
+
+"@auth0/angular-jwt@^5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@auth0/angular-jwt/-/angular-jwt-5.0.1.tgz#37851d3ca2a0e88b3e673afd7dd2891f0c61bdf5"
+  integrity sha512-djllMh6rthPscEj5n5T9zF223q8t+sDqnUuAYTJjdKoHvMAzYwwi2yP67HbojqjODG4ZLFAcPtRuzGgp+r7nDQ==
+  dependencies:
+    tslib "^2.0.0"
 
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.10.4":
   version "7.10.4"
@@ -6077,12 +6105,27 @@ ng2-validation@4.2.0:
   dependencies:
     libphonenumber-js "^0.4.5"
 
+ngx-bootstrap@5.6.1:
+  version "5.6.1"
+  resolved "https://registry.yarnpkg.com/ngx-bootstrap/-/ngx-bootstrap-5.6.1.tgz#c37643247441f9d421bca2cd7d7de1d0445e903f"
+  integrity sha512-8fDs3VaaWgKpupakPKS0QaUc+1E/JMBGJDxUUODjyIkLtFr1A8vH4cjXiV3AfrPvhK27GH0oyTPyKWKcCjEtVg==
+
 ngx-chips@2.0.0-beta.0:
   version "2.0.0-beta.0"
   resolved "https://registry.yarnpkg.com/ngx-chips/-/ngx-chips-2.0.0-beta.0.tgz#34ee6552ff2f3fc23d54ecba572a70022ac2e34a"
   integrity sha512-TND8OAaD1FBt5RG0TS8vhDOpVIXakQSTucQKD8GDhaNSz+92ba2WAZA5snzI5exVs52hjfCdUTAjam6d/OO9Ug==
   dependencies:
     ng2-material-dropdown "0.10.1"
+    tslib "^1.9.0"
+
+ngx-datatable-bootstrap4@^0.4.5:
+  version "0.4.5"
+  resolved "https://registry.yarnpkg.com/ngx-datatable-bootstrap4/-/ngx-datatable-bootstrap4-0.4.5.tgz#ae126571d56d8a8134a88988c41ffd4005b7c07b"
+  integrity sha512-pTT1gGbTk5me3+Fb70/2PEgFugyymzy0LL+pvYUcbU5/Nny0saaJ8mJtIFl7xV3DToXc1bxGIjZCKoDNiOX7OQ==
+  dependencies:
+    "@angular/common" "*"
+    "@angular/core" "*"
+    "@angular/forms" "*"
     tslib "^1.9.0"
 
 ngx-perfect-scrollbar@7.2.1:
@@ -6934,10 +6977,10 @@ pretty-hrtime@^1.0.0:
   resolved "https://registry.yarnpkg.com/pretty-hrtime/-/pretty-hrtime-1.0.3.tgz#b7e3ea42435a4c9b2759d99e0f201eb195802ee1"
   integrity sha1-t+PqQkNaTJsnWdmeDyAesZWALuE=
 
-prismjs@1.16.0:
-  version "1.16.0"
-  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.16.0.tgz#406eb2c8aacb0f5f0f1167930cb83835d10a4308"
-  integrity sha512-OA4MKxjFZHSvZcisLGe14THYsug/nF6O1f0pAJc0KN0wTyAcLqmsbE+lTGKSpyh+9pEW57+k6pg2AfYR+coyHA==
+prismjs@1.21.0:
+  version "1.21.0"
+  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.21.0.tgz#36c086ec36b45319ec4218ee164c110f9fc015a3"
+  integrity sha512-uGdSIu1nk3kej2iZsLyDoJ7e9bnPzIgY0naW/HdknGj61zScaprVEVGHrPoXqI+M9sP0NDnTK2jpkvmldpuqDw==
   optionalDependencies:
     clipboard "^2.0.0"
 
@@ -8710,6 +8753,11 @@ tslib@^1.8.0, tslib@^1.8.1, tslib@^1.9.0:
   version "1.13.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.13.0.tgz#c881e13cc7015894ed914862d276436fa9a47043"
   integrity sha512-i/6DQjL8Xf3be4K/E6Wgpekn5Qasl1usyw++dAA35Ue5orEn65VIxOA+YvNNl9HV3qv70T7CNwjODHZrLwvd1Q==
+
+tslib@^2.0.0:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.0.1.tgz#410eb0d113e5b6356490eec749603725b021b43e"
+  integrity sha512-SgIkNheinmEBgx1IUNirK0TUD4X9yjjBRTqqjggWCU3pUEqIk3/Uwl3yRixYKT6WjQuGiwDv4NomL3wqRCj+CQ==
 
 tslint@5.16.0:
   version "5.16.0"
